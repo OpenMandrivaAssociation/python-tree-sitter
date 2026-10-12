@@ -16,7 +16,7 @@ BuildRequires:	clang
 Python bindings for Tree-sitter. Used by Aider's repo-map (grep-ast).
 
 %prep
-%autosetup -n tree-sitter-%{version}
+%autosetup -n tree_sitter-%{version}
 
 %build
 
